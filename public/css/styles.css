@@ -171,6 +171,13 @@
     width: 100%;
     margin: 0px;
   }
+
+  .contenedorFooter{
+display: block;
+justify-content: center;
+align-items: center;
+  }
+
   .vistaFooter{
     text-align: center;
     padding: 10px;
@@ -205,6 +212,7 @@
   
   }
   .copyright{
+    margin-top: 20px;
     display: flex;
     align-items: flex-end;
     text-align: left; 
@@ -292,4 +300,9 @@
     .listas a {
         font-size: 19px;
     }  
+    .contenedorFooter{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+        }
   }
