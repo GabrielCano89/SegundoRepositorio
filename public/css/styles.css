@@ -193,15 +193,21 @@ align-items: center;
     margin-bottom: 10px;
     display: block;
     text-align: center;
-  
+    transition: background-color 0.3s  
   }
+  .fa-credit-card:hover{
+    color: #008000;
+    }
   .fa-gift{
     color: #1259c3;
     font-size: 2em;
     margin-bottom: 10px;
     display: block;
     text-align: center;
-  
+    transition: background-color 0.3s
+  }
+  .fa-gift:hover{
+    color: #008000;
   }
   .fa-user-shield{
     color: #1259c3;
@@ -209,7 +215,10 @@ align-items: center;
     margin-bottom: 10px;
     display: block;
     text-align: center;
-  
+    transition: background-color 0.3s
+  }
+  .fa-user-shield:hover{
+    color: #008000;
   }
   .copyright{
     margin-top: 20px;
